@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Flexbox</h1>
+    <h2>Display: flex;</h2>
+    <!--si utilizo el slector flex los elementos seleccionados se vuelven elementos en linea-->
+
+    <!--si en el documento css colocamos un selector "*" es un "selector o brackets" para todo los estilos
+    -->
+    <!--Div es un elemento en bloque-->
+
+    <div class="container">
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+    </div>
+
+    <h2>flex-direction: fd-row; (se aplica por defecto)</h2>
+    <div class="container fd-row">
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+    </div>
+    <h2>flex-direction: column;</h2>
+    <div class="container fd-column">
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+    </div>
+    <h2>flex-direction: row-reverse;</h2>
+    <div class="container fd-row-reverse">
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+    </div>
+    <h2>flex direction: column-reverse;</h2>
+    <div class="container fd-column-reverse">
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+    </div>
+    <h2>flex-wrap: nowrap; (se aplica por defecto)</h2>
+    <div class="container fw-nowrap">
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+    </div>
+    <h2>flex-wrap: wrap;</h2>
+    <div class="container fw-wrap">
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+    </div>
+    <h2>flex-wrap: wrap-reverse;</h2>
+    <div class="container fw-wrap-reverse">
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+      <div class="caja rojo"></div>
+      <div class="caja azul"></div>
+      <div class="caja verde"></div>
+    </div>
+  </body>
+</html>

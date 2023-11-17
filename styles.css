@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  height: 200px;
+  background-color: rgb(4, 107, 130);
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.caja {
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(41, 41, 41);
+}
+
+.rojo {
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.verde {
+  background-color: green;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+.fd-column {
+  flex-direction: column;
+}
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}
+.fd-column-reverse {
+  flex-direction: column-reverse;
+}
+.fw-nowrap {
+  flex-wrap: nowrap;
+}
+.fw-wrap {
+  flex-wrap: wrap;
+}
+
+.fw-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
